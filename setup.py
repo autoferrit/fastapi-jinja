@@ -24,10 +24,10 @@ with open(requirements_txt, "r", encoding="utf-8") as fin:
 setup(
     name="fastapi-jinja",
     version="0.1.0",
-    url="https://github.com/ageekinside/fastapi-jinja",
+    url="https://github.com/NexSabre/fastapi-jinja",
     license="MIT",
-    author="Marc Brooks",
-    author_email="marcwbrooks@gmail.com",
+    author="Nex Sabre",
+    author_email="nexsabre@protonmail.com",
     description="Adds integration of the Jinja2 template language to FastAPI.",
     long_description=read("README.md"),
     packages=find_packages(exclude=("tests",)),

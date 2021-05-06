@@ -2,15 +2,14 @@
 
 Adds integration of the Jinja template language to FastAPI. This is inspired and based off fastapi-chamelon by Mike Kennedy. Check that out, if you are using chamelon.
 
-## Installation
+Forked from [AGeekInside/fastapi-jinja](https://github.com/AGeekInside/fastapi-jinja). The repository looks out of date, there are a few issues left.
 
-For the moment, this is not yet on pypi and is fairly unstable, but if you wish to used it directly from here, just do the following:
+## Installation
+Now, you can install `fastapi-jinja` using a pip
 
 ```bash
-pip install git+https://github.com/ageekinside/fastapi-jinja
+pip install fastapi-jinja
 ```
-
-You may want to fork this repo and then use your URL until this is more final.
 
 ## Usage
 
