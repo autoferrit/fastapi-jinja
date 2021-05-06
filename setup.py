@@ -29,7 +29,6 @@ setup(
     author="Nex Sabre",
     author_email="nexsabre@protonmail.com",
     description="Adds integration of the Jinja2 template language to FastAPI.",
-    long_description=read("README.md"),
     packages=find_packages(exclude=("tests",)),
     install_requires=requires,
     classifiers=[
