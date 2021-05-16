@@ -5,6 +5,7 @@
 
 Adds integration of the Jinja template language to FastAPI. This is inspired and based off fastapi-chamelon by Mike Kennedy. Check that out, if you are using chamelon.
 
+Originall code [mikeckennedy/fastapi-chameleon](https://github.com/mikeckennedy/fastapi-chameleon)
 Forked from [AGeekInside/fastapi-jinja](https://github.com/AGeekInside/fastapi-jinja). The repository looks out of date, there are a few issues left.
 
 ## Installation
