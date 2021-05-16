@@ -1,3 +1,6 @@
+[![Test](https://github.com/NexSabre/fastapi-jinja/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/NexSabre/fastapi-jinja/actions/workflows/tests.yml)
+[![PyPI version](https://badge.fury.io/py/fastapi-jinja.svg)](https://badge.fury.io/py/fastapi-jinja)
+
 # fastapi-jinja
 
 Adds integration of the Jinja template language to FastAPI. This is inspired and based off fastapi-chamelon by Mike Kennedy. Check that out, if you are using chamelon.

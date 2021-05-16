@@ -1,0 +1,5 @@
+v0.1.1
+* remove .py2 from the built package on the pypi.org
+
+v0.1
+* first release for pypi.org

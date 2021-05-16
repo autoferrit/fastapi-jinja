@@ -7,7 +7,7 @@ clean:
 
 build:
 	@echo "Building..."
-	python setup.py sdist bdist_wheel --universal
+	python setup.py sdist bdist_wheel
 	@echo "Building... Done"
 
 publish:
