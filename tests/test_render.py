@@ -46,7 +46,7 @@ def test_can_decorate_dict_async_method():
     except AttributeError:
         # python 3.6
         loop = asyncio.get_event_loop()
-        resp = loop.run_until_complete(asyncio.gather(view_method(fake_request, 1, 2, 3)))
+        resp = loop.run_until_complete(asyncio.wait(view_method(fake_request, 1, 2, 3)))
 
     assert isinstance(resp, fastapi.Response)
     assert resp.status_code == 200
