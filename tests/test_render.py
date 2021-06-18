@@ -40,7 +40,14 @@ def test_can_decorate_dict_async_method():
     async def view_method(request: Request, a, b, c):
         return {"a": a, "b": b, "c": c}
 
-    resp = asyncio.run(view_method(fake_request, 1, 2, 3))
+    try:
+        # python 3.7+
+        resp = asyncio.run(view_method(fake_request, 1, 2, 3))
+    except AttributeError:
+        # python 3.6
+        loop = asyncio.get_event_loop()
+        resp = loop.run_until_complete(asyncio.gather(view_method(fake_request, 1, 2, 3)))
+
     assert isinstance(resp, fastapi.Response)
     assert resp.status_code == 200
 
